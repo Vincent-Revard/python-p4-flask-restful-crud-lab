@@ -31,6 +31,8 @@ db.init_app(app)
 api = Api(app)
 
 
+
+
 # Define a schema for Plant objects using Marshmallow
 class PlantSchema(Schema):
     id = fields.Int(
